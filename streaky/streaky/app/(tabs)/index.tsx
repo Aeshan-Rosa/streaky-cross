@@ -21,7 +21,7 @@ export default function HomeScreen() {
       {/* Header / Title */}
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title" style={styles.title}>
-          Welcome to Streaky
+          Welcome..
         </ThemedText>
         <HelloWave />
       </ThemedView>
