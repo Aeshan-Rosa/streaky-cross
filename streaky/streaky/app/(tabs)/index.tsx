@@ -7,3 +7,4 @@ export default function Index() {
   // When the app opens at "/", send them to the Tasks tab
   return <Redirect href="/tasks" />;
 }
+
