@@ -1,32 +1,18 @@
 // app/(tabs)/_layout.tsx
 import React from 'react';
 import { Tabs } from 'expo-router';
-import Ionicons from '@expo/vector-icons/Ionicons';
+import { Ionicons } from '@expo/vector-icons';
 
-
-//this gives an error --fix it on the next day
 export default function TabsLayout() {
   return (
     <Tabs
       screenOptions={{
         headerShown: false,
-        tabBarActiveTintColor: '#f97316', // active = orange
-        tabBarInactiveTintColor: '#9ca3af', // inactive = light gray
+        tabBarActiveTintColor: '#ff7a00',
+        tabBarInactiveTintColor: '#9ca3af',
         tabBarStyle: {
-          backgroundColor: '#1e1e1e', // dark gray bottom bar
-          borderTopColor: '#111111',
-          height: 60,
-          paddingBottom: 8,
-          paddingTop: 6,
-          shadowColor: '#000000',
-          shadowOffset: { width: 0, height: -2 },
-          shadowOpacity: 0.3,
-          shadowRadius: 3,
-          elevation: 10,
-        },
-        tabBarLabelStyle: {
-          fontSize: 11,
-          fontWeight: '500',
+          backgroundColor: '#020817',
+          borderTopColor: '#111827',
         },
       }}
     >
