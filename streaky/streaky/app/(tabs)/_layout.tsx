@@ -3,6 +3,8 @@ import React from 'react';
 import { Tabs } from 'expo-router';
 import Ionicons from '@expo/vector-icons/Ionicons';
 
+
+//this gives an error --fix it on the next day
 export default function TabsLayout() {
   return (
     <Tabs
