@@ -1,4 +1,6 @@
 // components/TaskCard.tsx
+
+//this is the task card component
 import React from 'react';
 import {
   View,

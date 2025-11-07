@@ -1,4 +1,6 @@
 // components/AchievementCard.tsx
+
+// AchievementCard component to display achievement details
 import React from 'react';
 import { View, Text, StyleSheet, Pressable } from 'react-native';
 import { Achievement, Task } from '../store/useStreakyStore';

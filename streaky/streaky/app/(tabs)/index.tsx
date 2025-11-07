@@ -1,4 +1,6 @@
 // app/index.tsx
+
+// Redirect to the Tasks tab by default
 import { Redirect } from 'expo-router';
 
 export default function Index() {
