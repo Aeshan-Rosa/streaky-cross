@@ -37,7 +37,7 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="my-streaky"
         options={{
-          title: 'My Streaky',
+          title: 'My Streaky +',
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="sparkles-outline" size={size} color={color} />
           ),
